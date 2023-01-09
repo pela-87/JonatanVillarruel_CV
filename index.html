@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/b-5.2.3/bootstrap.min.css" rel="stylesheet">
+    <link href="css/estilo.css" rel="stylesheet" />
+    <link href="fontawesome6/pro/css/all.min.css" rel="stylesheet" />
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Fugaz+One&family=Hind+Siliguri:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700;900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Source+Serif+Pro:ital,wght@0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600&display=swap" rel="stylesheet">
+   
+    <title>CV Jonatan Santiago Villarruel</title>
+</head>
+<body onload=loaded()>
+    <div class="container" id="container">
+
+        <section class="encabezado">
+            <div class="contenedor-card">
+                <div class="card" style="width: 18rem;">
+                    <div class="imagen-perfil">
+                        <img src="img/yo.png" class="card-img-top" alt="foto-perfil">
+                    </div>
+                    <div class="card-body">
+                        <p id="titulo-info">Hola, mi nombre es</p>
+                        <p id="descripcion-info">Jonatan Santiago Villarruel</p>
+                    </div>
+                </div>
+            </div>
+            <div class="iconos-informacion">
+                <dvi>
+                    <!-- <i class="fa-duotone fa-address-card ico-info"></i> -->
+                    <!-- <i class="fa-solid fa-address-card ico-info"></i> -->
+
+                    <!-- <i class="fa-solid fa-id-card-clip ico-info"></i> -->
+                    <!-- <i class="fa-light fa-id-card-clip ico-info"></i> -->
+                    <i id="ico-persona" class="fa-duotone fa-id-card-clip ico-info"></i>
+                </dvi>
+                <dvi>
+                    <!-- <i class="fa-solid fa-envelope ico-info"></i> -->
+                    <i id="ico-mail" class="fa-light fa-envelope ico-info"></i>
+                    <!-- <i class="fa-duotone fa-envelope ico-info"></i> -->
+                </dvi>
+                <dvi>
+                    <!-- <i class="fa-solid fa-calendar-days ico-info"></i> -->
+                    <i id="ico-fecha" class="fa-light fa-calendar-days ico-info"></i>
+                    <!-- <i class="fa-duotone fa-calendar-days ico-info"></i> -->
+                </dvi>
+                <dvi>
+                    <!-- <i class="fa-solid fa-map-location-dot ico-info"></i> -->
+                    <i id="ico-direccion" class="fa-light fa-map-location-dot ico-info"></i>
+                    <!-- <i class="fa-duotone fa-map-location-dot ico-info"></i> -->
+                </dvi>
+                <dvi>
+                    <!-- <i class="fa-solid fa-phone ico-info"></i> -->
+                    <i id="ico-telefono" class="fa-light fa-phone ico-info"></i>
+                    <!-- <i class="fa-duotone fa-phone ico-info"></i> -->
+                </dvi>
+            </div>
+        </section>
+
+        <hr class="border border-3 opacity-50">
+        
+        <div>            
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="index.html">
+                    <i class="fa-duotone fa-house" title="Inicio"></i>                    
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"            aria-label="Toggle navigation">
+                    <!-- <i class="fa-duotone fa-bars-staggered"></i>-->
+                    <i class="fa-duotone fa-chevrons-down"></i>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#info-personal">Quien Soy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#estudios">Estudios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#cursos">Cursos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#experiencia-laboral">Experiencia laboral</a>
+                        </li>                      
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </div>        
+
+        <hr class="border border-3 opacity-50">
+        
+        <section class="info-personal" id="info-personal">
+            <div>
+                <h2 class="titulo-secciones">Quien Soy</h2>
+                <p>Soy una persona que le gusta trabajar en equipo, no suelo quedarme con una única solución de algún problema o tarea, trato de buscar alguna alternativa o la forma de hacer que el trabajo sea más sencillo o más práctico. Me gusta ponerme a prueba y tratar de superarme. </p>
+            </div>            
+        </section>
+
+        <section class="datos-utiles">
+            <div class="bloque-habilidades">
+                <h2 class="titulo-secciones">Habilidades</h2>
+                <ul>
+                    <li>Trabajo en equipo.</li>
+                    <li>Resolución de problemas.</li>
+                    <li>Atención al cliente.</li>
+                    <li>Administración de oficina.</li>
+                    <li>Conocimientos de Windows.</li>
+                    <li>Conocimiento de Microsoft Office.</li>
+                    <li>Visual Basic - Básico.</li>
+                    <li>Visual Studio - Avanzado.</li>
+                </ul>
+            </div>
+            <div class="bloque-idiomas">
+                <h2 class="titulo-secciones">Idiomas</h2>
+                <i class="fa-duotone fa-check"></i> Español: Natal
+                <br>
+                <i class="fa-duotone fa-check"></i> Ingles: Básico
+                <br>
+            </div>
+        </section>
+
+        <section class="estudios" id="estudios">
+            <div>
+                <h2 class="titulo-secciones">Estudios</h2>                
+            </div>
+            <ul class="timeline">
+                <li>
+                    <div class="contenedor-titulo-estudio">
+                        <h4>Instituto Don Bosco - Fortín Mercedes</h4>
+                    </div>   
+                    <div>
+                        <p class="descrip-estudio"><b>Localidad:</b> Pedro Luro</p>
+                        <p class="descrip-estudio"><b>Año:</b> 2004</p>
+                        <p class="descrip-estudio"><b>Orientación:</b> Humanidades y Ciencias Sociales</p>
+                        <p class="descrip-estudio"><b>Estado:</b> Finalizado</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="contenedor-titulo-estudio">
+                        <h4>Instituto Superiro Juan XXIII</h4>
+                    </div>   
+                    <div>
+                        <p class="descrip-estudio"><b>Localidad:</b> Bahía Blanca</p>
+                        <p class="descrip-estudio"><b>Año:</b> 2006</p>
+                        <p class="descrip-estudio"><b>Carrera:</b> Técnico Superior en Análisis de Sistemas</p>
+                        <p class="descrip-estudio"><b>Estado:</b> Continúa</p>
+                    </div>
+                </li>                
+            </ul>      
+        </section>
+
+        <section class="cursos" id="cursos">
+            <div>
+                <h2 class="titulo-secciones">Cursos</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="main-timeline4">
+                        <div class="timeline">
+                            <!-- <a href="#" class="timeline-content"> -->
+                            <div class="timeline-content">
+                                <span class="year">2005</span>
+                                <div class="inner-content">
+                                    <h3 class="title">Curso de operador de Windows 98 y Office 2000</h3>
+                                    <p class="descrip-estudio"><b>Fundación FUCE</b></p>
+                                    <p class="descrip-estudio">Bahía Blanca</p>
+                                    <p class="descrip-estudio"><i>Metodología:</i> Presencial.</p>
+                                </div>
+                            </div>
+                            <!-- </a> -->
+                        </div>
+                        <div class="timeline">
+                            <div class="timeline-content">
+                                <span class="year">06/2021</span>
+                                <div class="inner-content">
+                                    <h3 class="title">Fundamentos de Programación con SQL Server 2019</h3>
+                                    <p class="descrip-estudio"><b>EducacionIT</b></p>
+                                    <p class="descrip-estudio"><i>Metodología:</i> Clases Online.</p>
+                                    <a href="https://api.alumni.education/course/certificate/generate?hash=9e01cf24-5f2a-437f-af35-fbd6ceb5bb1e&format=pdf" target="_blank">
+                                        Certificado
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline">
+                            <div class="timeline-content">
+                                <span class="year">10/2021</span>
+                                <div class="inner-content">
+                                    <h3 class="title">Análisis y Diseño con SQL Server 2019</h3>
+                                    <p class="descrip-estudio"><b>EducacionIT</b></p>
+                                    <p class="descrip-estudio"><i>Metodología:</i> Clases Online.</p>
+                                    <a href="https://api.alumni.education/course/certificate/generate?hash=11a4ea90-718f-47d5-9bb9-8230141c0dfd&format=pdf" target="_blank">
+                                        Certificado
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline">
+                            <div class="timeline-content">
+                                <span class="year">04/2022</span>
+                                <div class="inner-content">
+                                    <h3 class="title">ASP.NET Core MVC Programming</h3>
+                                    <p class="descrip-estudio"><b>EducacionIT</b></p>
+                                    <p class="descrip-estudio"><i>Metodología:</i> Clases Online.</p>
+                                    <a href="https://api.alumni.education/course/certificate/generate?hash=400fcae1-41f7-4d34-b507-8e2d7df4daf1&format=pdf" target="_blank">
+                                        Certificado
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline">
+                            <div class="timeline-content">
+                                <span class="year">06/2022</span>
+                                <div class="inner-content">
+                                    <h3 class="title">Web API .Net Core</h3>
+                                    <p class="descrip-estudio"><b>EducacionIT</b></p>
+                                    <p class="descrip-estudio"><i>Metodología:</i> Clases Online.</p>
+                                    <a href="https://api.alumni.education/course/certificate/generate?hash=2cfcf235-f89b-49fc-a44c-a8f75daa002d&format=pdf" target="_blank">
+                                        Certificado
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline">
+                            <div class="timeline-content">
+                                <span class="year">11/2022</span>
+                                <div class="inner-content">
+                                    <h3 class="title">Curso profesional de JavaScript</h3>
+                                    <p class="descrip-estudio"><b>CódigoFacilito</b></p>
+                                    <p class="descrip-estudio"><i>Metodología:</i> Online.</p>
+                                    <a href="https://media.licdn.com/dms/image/C4D22AQEVrjJ0NqXIXg/feedshare-shrink_1280/0/1671457416579?e=1674086400&v=beta&t=09TqKagoykNRJazLaW2Ixvh_sYF5r_7aYVSXFoyCoDU" target="_blank">
+                                        Certificado
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline">
+                            <div class="timeline-content">
+                                <span class="year">12/2022</span>
+                                <div class="inner-content">
+                                    <h3 class="title">Programación desde Cero</h3>
+                                    <p class="descrip-estudio"><b>Egg Cooperation</b></p>
+                                    <p class="descrip-estudio"><i>Metodología:</i> Online.</p>
+                                    <a href="https://media.licdn.com/dms/image/C4D22AQEVx4s8RQSLBQ/feedshare-shrink_2048_1536/0/1671457090480?e=1674086400&v=beta&t=asNSKyy2Oh9EtSmx_mwsVftsNyXgNPmh4-S1tGHdEtg" target="_blank">
+                                        Certificado
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </section>
+
+        <section class="experiencia-laboral" id="experiencia-laboral">
+            <div>
+                <h2 class="titulo-secciones">Experiencia Laboral</h2>
+            </div>     
+            <ul class="timeline">
+                <li>
+                    <div class="contenedor-titulo-estudio">
+                        <h4>Lavadero de Autos Ju-Al</h4>
+                        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 01/2004 al 03/2006</small></p>
+                    </div>   
+                    <div>
+                        <p class="descrip-estudio"><b>Localidad:</b> Hilario Ascasubi</p>
+                        <p class="descrip-estudio"><b>Puesto:</b> Empleado</p>
+                        <p class="descrip-estudio"><b>Tareas realizadas:</b></p>
+                        <ul>
+                            <li class="punto-item">
+                                Lavado de chasis y carroceria.
+                            </li>
+                            <li class="punto-item">
+                                Limpieza de interior.
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <div class="contenedor-titulo-estudio">
+                        <h4>Mario Gil</h4>
+                        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 06/2007 al 10/2008</small></p>
+                    </div>   
+                    <div>
+                        <p class="descrip-estudio"><b>Localidad:</b> Hilario Ascasubi</p>
+                        <p class="descrip-estudio"><b>Puesto:</b> Ayudante de electricista</p>
+                        <p class="descrip-estudio"><b>Tareas realizadas:</b></p>
+                        <ul>
+                            <li class="punto-item">
+                                Cableado.
+                            </li>
+                            <li class="punto-item">
+                                Colocación de toma corriente.
+                            </li>
+                            <li class="punto-item">
+                                Colocación de aplique de luces.
+                            </li>
+                            <li class="punto-item">
+                                Instalación de iluminación.
+                            </li>
+                        </ul>
+                    </div>
+                </li> 
+                <li>
+                    <div class="contenedor-titulo-estudio">
+                        <h4>Estudio Contable Benedetti-García</h4>
+                        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 10/2009 al 11/2010 </small></p>
+                    </div>   
+                    <div>
+                        <p class="descrip-estudio"><b>Localidad:</b> Bahía Blanca</p>
+                        <p class="descrip-estudio"><b>Puesto:</b> Cadete</p>
+                        <p class="descrip-estudio"><b>Tareas realizadas:</b></p>
+                        <ul>
+                            <li class="punto-item">
+                                Presentación de trámites laborales, impositivos, municipales y judiciales.
+                            </li>
+                        </ul>
+                    </div>
+                </li>  
+                <li>
+                    <div class="contenedor-titulo-estudio">
+                        <h4>Lic. Rosana López</h4>
+                        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 09/2010 al 11/2010 </small></p>
+                    </div>   
+                    <div>
+                        <p class="descrip-estudio"><b>Localidad:</b> Bahía Blanca</p>
+                        <p class="descrip-estudio"><b>Puesto:</b> Cadete</p>
+                        <p class="descrip-estudio"><b>Tareas realizadas:</b></p>
+                        <ul>
+                            <li class="punto-item">
+                                Presentación de trámites laborales, impositivos, municipales y judiciales.
+                            </li>
+                        </ul>
+                    </div>
+                </li>  
+                <li>
+                    <div class="contenedor-titulo-estudio">
+                        <h4>UNICA s.a</h4>
+                        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 12/2011 al 03/2021</small></p>
+                    </div>   
+                    <div>
+                        <p class="descrip-estudio"><b>Localidad:</b> Bahía Blanca</p>
+                        <p class="descrip-estudio"><b>Puesto:</b> Area Técnica</p>
+                        <p class="descrip-estudio"><b>Tareas realizadas:</b></p>
+                        <ul>
+                            <li class="punto-item">
+                                Soporte técnico vía personal, telefónica, chat y remota.
+                            </li>
+                            <li class="punto-item">
+                                Reparación y mantenimiento de PC, Notebook, Impresora de papel, Impresora de plásticos y Escáner.
+                            </li>
+                            <li class="punto-item">
+                                Tareas de backup.
+                            </li>
+                            <li class="punto-item">
+                                Instalaciones y configuraciones de Sistemas Operativos (Windows XP, Windows 7, Windows 10).
+                            </li>
+                            <li class="punto-item">
+                                Creación de Macros en Excel.
+                            </li>
+                            <li class="punto-item">
+                                Desarrollo de aplicaciones de escritorio.
+                            </li>
+                        </ul>
+                    </div>
+                </li> 
+                <li>
+                    <div class="contenedor-titulo-estudio">
+                        <h4>UNICA s.a</h4>
+                        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 04/2021 a la Actualidad</small></p>
+                    </div>   
+                    <div>
+                        <p class="descrip-estudio"><b>Localidad:</b> Bahía Blanca</p>
+                        <p class="descrip-estudio"><b>Puesto:</b> Desarrollo</p>
+                        <p class="descrip-estudio"><b>Tareas realizadas:</b></p>
+                        <ul>
+                            <li class="punto-item">
+                                Mantenimiento de sitios en WebForm.
+                            </li>
+                            <li class="punto-item">
+                                Mantenimiento de sitios en .NET Core.
+                            </li>
+                            <li class="punto-item">
+                                Administración de envío de email con plataforma Mailchimp y DonWeb.
+                            </li>                            
+                            <li class="punto-item">
+                                Creación de base de datos, tablas y procedimientos almacenados en SQL Server.
+                            </li>
+                            <li class="punto-item">
+                                Manejo básico de Active Directory.
+                            </li>
+                            <li class="punto-item">
+                                Manejo básico de IIS (Internet Information Server).
+                            </li>
+                            <li class="punto-item">
+                                Manejo básico de TFS (Team Foundation Server).
+                            </li>
+                        </ul>
+                    </div>
+                </li>             
+            </ul>    
+        </section>
+    </div>
+    
+    <br>
+    <br>
+    <script src="js/b-5.2.3/bootstrap.bundle.min.js" ></script>
+    <script src="js/manejo.js" type="text/javascript"></script>
+    
+</body>
+</html>

@@ -23,6 +23,7 @@ body{
     /* width: 350px; */
     margin: 1%;
     --bs-card-border-width: 0px;
+    width: 21rem !important;
 }
 
 .encabezado, .card{
@@ -32,6 +33,10 @@ body{
 .imagen-perfil{
     border-radius: 10em;
     border-style: outset;
+    width: 14rem;
+    /* display: flex; */
+    /* position: inherit; */
+    align-self: center;
 }
 
 .imagen-perfil, .card .imagen-perfil img{
@@ -50,7 +55,7 @@ body{
 .iconos-informacion{
     display: flow-root;
     text-align: center;
-    margin-top: -5px;
+    margin-top: -20px;
 }
 
 .ico-info{
